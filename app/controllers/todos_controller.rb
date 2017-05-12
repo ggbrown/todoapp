@@ -32,6 +32,10 @@ class TodosController < ApplicationController
     end
   end
   
+  def index
+    @Todos = Todo.all
+  end
+  
   
   private 
   
